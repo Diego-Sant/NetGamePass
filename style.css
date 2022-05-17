@@ -520,7 +520,7 @@ html::-webkit-scrollbar {
     }
 }
 
-@media (max-width:360px) {
+@media (min-width: 300px) and (max-width:360px) {
     .menu img {
         width: 150px;
         margin-left: 40px;
