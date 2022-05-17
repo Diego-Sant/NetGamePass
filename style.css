@@ -501,7 +501,7 @@ html::-webkit-scrollbar {
     }
 }
 
-@media(max-width: 560px) {
+@media (max-width: 560px) {
     .menu img {
         width: 250px;
         margin-left: 50px;
@@ -520,7 +520,58 @@ html::-webkit-scrollbar {
     }
 }
 
-@media (min-width: 300px) and (max-width:360px) {
+@media (max-width: 440px) {
+    .menu img {
+        width: 150px;
+        margin-left: 40px;
+        margin-bottom: 150px;
+    }
+    .navbar a{
+        font-size: 1.5rem;
+        margin-right: -20px;
+        margin-bottom: 120px;
+    }
+    .logo {
+        font-size: 1.2rem;
+    }
+    .gameconsoles {
+        width: 250px;
+    }
+    .home {
+        min-height: 50px;
+    }
+    .home-text h1 {
+        font-size: 1rem;
+        margin-right: -6px;
+    }
+    .btn {
+        padding: 10px 15px;
+        font-size: 0.8rem;
+        margin-right: -10px;
+    }
+    .box {
+        height: 370px;
+    }
+    .copyright {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1rem;
+    }
+    .copyright .logo {
+        margin: 0;
+    }
+    .new-content {
+        grid-template-columns: repeat(auto-fit, minmax(200px,auto));
+    }
+    .image1 {
+        display: none;
+    }
+    .image2 {
+        display: block;
+    }
+}
+
+@media (max-width:360px) {
     .menu img {
         width: 150px;
         margin-left: 40px;
